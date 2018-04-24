@@ -1,0 +1,59 @@
+body {
+	font-size: 35px;
+	background-color: #FF355E;
+}
+
+@keyframes colorchange
+{
+  0% {background: #FF355E}
+  6.25% {background: #FD5B78}
+  12.5% {background: #FF6037}
+  18.75% {background: #FF9966}
+  25% {background: #FF9933}
+  31.25% {background: #FFCC33}
+  37.5% {background: #FFFF66}
+  43.75% {background: #CCFF00}
+  50% {background: #66FF66}
+  56.25% {background: #AAF0D1}
+  62.5% {background: #50BFE6}
+  68.75% {background: #FF6EFF}
+  75% {background: #EE34D2}
+  81.25% {background: #FF00CC}
+  87.5% {background: #FF00CC}
+  93.75% {background: #FF355E}
+  100% {background: #FD5B78}
+}
+
+label {
+	font-size: 25px;
+}
+
+div {
+	text-align: center
+}
+
+span {
+	cursor: default;
+	user-select: none;
+}
+
+img {
+	padding-top: 5%;
+	width: 75%;
+}
+
+#centered {
+	color: white;
+	position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}

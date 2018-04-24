@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Timer</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" style="padding-top: 5%">
+			<div class="col-6 offset-md-3">
+				<p align="center" style="font-size: 40px; font-family: 'Pacifico', cursive">Pomodoro Timer</p>
+				<div class="row">
+					<div class="col">
+						<span id="sbincr">+</span>
+						<span id="shortbrk" title="Short Break">5</span>
+						<span id="sbdcr">-</span>
+						<label>Short Break</label>
+					</div>
+					<div class="col">
+						<span id="wdincr">+</span>
+						<span id="work" title="Work Duration">25</span>
+						<span id="wddcr">-</span>
+						<label>Pomodoro</label>
+					</div>
+					<div class="col">
+						<span id="lbincr">+</span>
+						<span id="longbrk" title="Long Break">10</span>
+						<span id="lbdcr">-</span>
+						<label>Long Break</label>
+					</div>
+				</div>
+				<div>
+					<img id="pomodoro" class="img-responsive img-fluid" src="./tomato.png">
+					<div id="centered"></div>
+				</div>
+				<div class="row">
+					<div class="col-4"></div>
+					<div id="controls" class="col-2 responsive">
+						<span id="play"><i class="fa fa-play"></i></span>
+					</div>
+					<div class="col-2 responsive">
+						<span id="reset"><i class="fa fa-undo"></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer style="font-size: 20px">made by <a href="https://mouri11.github.io">Rohit Das</a></footer>
+	</div>
+</body>
+</html>
